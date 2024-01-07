@@ -22,5 +22,3 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
-
-vim.keymap.set('n', '<leader>cp', ':CompilerOpen<CR>')
